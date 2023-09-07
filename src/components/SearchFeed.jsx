@@ -20,7 +20,7 @@ const SearchFeed = () => {
     <Box p={2} sx={{ overflow: "auto", height: "90vh", flex: 2 }}>
       <Typography variant="h4" fontWeight="bold" mb={2} sx={{ color: "white" }}>
         Searcg result for:
-        <span style={{ color: "#F31503" }}> {searchTerm}</span>videos
+        <span style={{ color: "#F31503" }}> {searchTerm}</span> videos
       </Typography>
 
       <Videos videos={videos} />

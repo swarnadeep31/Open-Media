@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import { Stack, Typography, colors } from "@mui/material";
 import { Link } from "react-router-dom";
 
 import { logo } from "../utils/constants";
@@ -18,6 +18,7 @@ const Navbar = () => (
   >
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <img src={logo} alt="logo" height={45} />
+      <Typography variant="h5" style={{color: '#ffff', paddingLeft: '1rem',fontWeight: 'bold'}}>OPEN MEDIA</Typography>
     </Link>
     <SearchBar/>
   </Stack>
